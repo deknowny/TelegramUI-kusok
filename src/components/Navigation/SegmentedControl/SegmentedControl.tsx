@@ -34,7 +34,6 @@ export const SegmentedControl = ({
       role="tablist"
       className={classNames(
         styles.wrapper,
-        platform === 'ios' && styles['wrapper--ios'],
         className,
       )}
       {...restProps}
