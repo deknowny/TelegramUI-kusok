@@ -31,7 +31,6 @@ export const SegmentedControlItem = ({
       Component="button"
       className={classNames(
         styles.wrapper,
-        platform === 'ios' && styles['wrapper--ios'],
         className,
       )}
       {...restProps}
